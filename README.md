@@ -21,4 +21,8 @@ Elixir:
     - `sudo apt install -y elixir`
 
   - `mix new calculadora`
-  - ``
+  - `cd calculadora`
+  - `code lib/calculadora.ex`
+  - Edite o código da calculadora
+  - `iex -S mix`
+  - Para sair do `iex`, pressione Ctrl+C duas vezes
