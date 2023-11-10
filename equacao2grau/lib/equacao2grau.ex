@@ -7,9 +7,9 @@ defmodule Equacao2grau do
   def descobre_raizes(a, b, c) when is_number(a) and is_number(b) and is_number(c) do
     delta = :math.pow(b, 2) - 4*a*c
     cond do
-      (delta < 0)  -> {:error}
-      (delta == 0) -> {:ok, [(-b)/(2*a)]}
-      (delta > 0)  -> {:ok, [(-b - :math.sqrt(delta))/(2*a), (-b + :math.sqrt(delta))/(2*a)]}
+      (delta < 0)  -> []
+      (delta == 0) -> [(-b)/(2*a)]
+      (delta > 0)  -> [(-b - :math.sqrt(delta))/(2*a), (-b + :math.sqrt(delta))/(2*a)]
     end
   end
 end
