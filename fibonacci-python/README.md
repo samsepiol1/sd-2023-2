@@ -21,7 +21,8 @@ Código inspirado nas imagens disponíveis em: [How to construct rectangular fig
 
 ![Retângulos de Fibonacci com diagonais transformados em espiral de Fibonacci](https://i.stack.imgur.com/SzmQu.gif)
 
-## Explicação do código
+## Explicação do código [espiral.py](./espiral.py)
+
 Este é um script Python que usa a biblioteca `turtle` para desenhar uma espiral de Fibonacci colorida. Aqui está uma explicação passo a passo do que o código faz:
 
 1. Importa as bibliotecas necessárias: collections e `turtle`.
