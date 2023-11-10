@@ -1,20 +1,4 @@
 defmodule Recursividade do
-  @moduledoc """
-  Documentation for `Recursividade`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Recursividade.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 
   # Casos mais simples
   def fact(0), do: 1
