@@ -28,7 +28,7 @@ Este é um script Python que usa a biblioteca `turtle` para desenhar uma espiral
 
 10. Por fim, o script aguarda que o usuário clique na tela para encerrar a sessão.
 
-```{.python .numberLines}
+```python
 '''
 Code written for a Brazilian Portuguese audiance.
 Please adjust the variables' names to your language.
