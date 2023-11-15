@@ -9,7 +9,7 @@ Elixir:
 - Tem 4 executáveis principais:
   - `elixirc`: Compilador (Gera `.beam` a partir de arquivos `.ex`);
   - `elixir`: Interpretador (Para shebang ou executar arquivos `.exs`);
-  - `iex`: Interpretador interativa;
+  - `iex`: Interpretador interativo;
   - `mix`: Ferramenta para gerenciamento de projetos.
 
 - Criação de projetos com elixir:
